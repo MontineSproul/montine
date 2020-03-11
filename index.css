@@ -1,0 +1,80 @@
+.link { 
+    font-size: 25px; display:inline-block; 
+    color: #817072;
+    padding-left: 450px;
+
+}
+
+a:hover {
+    color: #7E9B9A;
+}
+
+h1 {
+    font-size: 75px;
+    top: 250px;
+    margin-top: 0px;
+    border: 50px solid #7E9B9A;
+}
+
+h1, h2 {
+    font-family: "Didot", serif;
+    text-align: center;
+    color: #122730;
+    letter-spacing: 1.5px;
+    font-weight: 900
+}
+
+body {
+    text-align: center;
+   /* background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');*/
+    background-color: #f1e7ec;
+
+}
+
+
+p {
+    margin: 100px;
+}
+
+img {
+    height:300px;
+}
+
+img:hover {
+    opacity: 0.2;
+    transform: scale(3);
+}
+
+header {
+    background-color: #708B92;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    height: 150px;  
+    margin-bottom: 200px; 
+}
+
+nav li {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    width: 400 px;
+    margin: 0px;
+    
+}
+
+nav {
+    text-align: right; 
+}
+
+main {
+    margin-top: 200px;
+}
+
+.header {
+    border: 25px solid black;
+}
